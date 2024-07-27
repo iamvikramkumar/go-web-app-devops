@@ -1,8 +1,8 @@
-# CICD using GitHub actions
+# CICD using GitHub actions 
 
 name: CI/CD
 
-# Exclude the workflow to run on changes to the helm chart
+# Exclude the workflow to run on changes to the helm chart 
 on:
   push:
     branches:
@@ -20,6 +20,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+
+
 
     - name: Set up Go 1.22
       uses: actions/setup-go@v2
@@ -94,3 +96,4 @@ jobs:
         git push
 
 
+#cicd
