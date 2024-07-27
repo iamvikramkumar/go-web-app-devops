@@ -8,11 +8,11 @@ image:
   repository: iamvikramkumar/go-web-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10122674052"
+  tag: ""
 
 ingress:
   enabled: false
-  className: ""
+  className: "10122532755"
   annotations: {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
